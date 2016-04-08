@@ -1,5 +1,7 @@
-{{#link-to 'question' question.id}}
+
 <p>author: {{question.author}}</p>
 <p>{{question-popularity question}} question: {{question.content}}</p>
+{{#link-to 'question' question.id}}
+<p>Click here for full details about the question, {{fullDetail}}.</p>
 {{/link-to}}
 <hr>

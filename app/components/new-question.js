@@ -11,12 +11,13 @@ export default Ember.Component.extend({
       var params = {
         content: this.get('content'),
         author: this.get('author'),
-        notes: this.get('notes')
+        notes: this.get('notes'),
+        city: this.get('city')
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);
     },
-    
+
     formHide() {
       this.set('addNewQuestion', false);
     }
