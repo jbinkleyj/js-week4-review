@@ -1,0 +1,24 @@
+<p>Author: {{question.author}}</p>
+<p>Question: {{question.content}}</p>
+<p>Notes: {{question.notes}}</p>
+
+<TABLE BORDER="0">
+  <TR>
+    <TD>{{update-question question=question update="update"}}</TD>
+    <TD><button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button></TD>
+  </TR>
+</TABLE>
+<br>
+
+<hr>
+<h4>Answers: </h4>
+<ul>
+  {{#each question.answers as |answer|}}
+    <li>
+      <p>Author: {{answer.author}}</p>
+      <p>Answer: {{answer.content}}</p>
+    </li>
+    <button class="btn btn-danger btn-xs" {{action 'delete' answer}}>Delete</button>
+    <hr>
+  {{/each}}
+</ul>

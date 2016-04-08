@@ -1,0 +1,26 @@
+{"questions" : [{
+    "question1" : "how do you guys manage and organise your components in a rather large app? ",
+    "title" : "Components",
+    "user" : "Jerry Garcia"
+  }, {
+    "question1" : "HOW DO I INFORM EMBER DATA ABOUT NEW RECORDS CREATED ON THE BACKEND?",
+    "title" : "Models",
+    "user" : "liz Taylor"
+  }, {
+    "question1" : "How to update just 1 record in Ember.js with Ember-data? Currently save() and commit() on 1 record actually updates all records of model",
+    "title" : "Updating",
+    "user" : "Jake Langley"
+  }, {
+    "question1" : "What is the difference between Router and Route in ember.js ?",
+    "title" : "Routing",
+    "user" : "Tom Barrow"
+  }, {
+    "question1" : "How can I define and insert a view?",
+    "title" : "Views",
+    "user" : "Lisa Edwards"
+  }, {
+    "question1" : "How can I define a new ember class?",
+    "title" : "Add-ons",
+    "user" : "Mike Ward"
+  }]
+}

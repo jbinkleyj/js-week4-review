@@ -1,0 +1,26 @@
+{{#if addNewQuestion}}
+  <h2>New Question</h2>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="author">User Name</label>
+          {{input value=author id="author"}}
+        </div>
+
+        <div class="form-group">
+            <label for="content">Question</label>
+          {{input value=content id="content"}}
+        </div>
+
+        <div class="form-group">
+            <label for="notes">Question Details</label>
+          {{textarea class="form-control" rows="3" value=notes id="notes"}}
+        </div>
+
+        <button class="btn btn-info btn-xs"{{action 'saveQuestion'}}>Post</button>
+        <button class="btn btn-warning btn-xs"{{action 'formHide'}}>Hide Form</button>
+      </form>
+    </div>
+{{else}}
+  <button class="btn btn-info btn-xs"{{action 'questionFormShow'}}>New Question</button>
+{{/if}}

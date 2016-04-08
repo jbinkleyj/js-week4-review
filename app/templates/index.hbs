@@ -1,0 +1,13 @@
+<h1> Welcome to Emberjs Q and A</h1>
+
+We hope your experience here is helpfull.
+<hr>
+  {{new-question saveQuestion="saveQuestion"}}
+<ul>
+  <hr>
+  {{#each model.questions as |question|}}
+    {{question-tile update="update" question=question}}
+  {{/each}}
+</ul>
+  {{new-question saveQuestion="saveQuestion"}}
+<hr>
