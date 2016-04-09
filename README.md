@@ -1,8 +1,19 @@
-# Js-week3-review
+# Js-week4-review
 
-## by: Chris Kuiper
+## by: Chris Kuiper 4/8/2016
 
-Emberjs Q&A site allows users to create, update and delete new questions as well as answer questions whlie also creating, updating and deleting.
+Emberjs Q&A site allows users to create, update and delete new questions as well as answer questions while also creating and deleting.
+Implemented in this app:
+* Routes and templates
+* One-to-many relationships
+* Components Save/Update/delete
+* Add-ons: bootstrap
+* Model relationships
+* Helpers
+* Computed properties
+* Implementing APIs
+* Ember services
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
