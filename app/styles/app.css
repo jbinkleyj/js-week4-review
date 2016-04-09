@@ -11,3 +11,8 @@ body {
 TD {
   padding-left: 10px;
 }
+
+.map-display {
+    height: 400px;
+    width: 400px;
+  }

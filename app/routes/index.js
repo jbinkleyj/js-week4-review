@@ -1,5 +1,5 @@
 import Ember from 'ember';
-
+// RSVP - will pause the app until all conditions are ready before displaying results.
 export default Ember.Route.extend({
   model() {
     return Ember.RSVP.hash({

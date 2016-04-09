@@ -11,7 +11,9 @@ export default Ember.Component.extend({
         content: this.get('content'),
         author: this.get('author'),
         notes: this.get('notes'),
-        city: this.get('city')
+        city: this.get('city'),
+        latitude: this.get('latitude'),
+        longitude: this.get('longitude')
       };
       this.set('updateQuestionForm', false);
       this.sendAction('update', question, params);

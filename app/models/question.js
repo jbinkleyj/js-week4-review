@@ -6,4 +6,6 @@ export default DS.Model.extend({
   notes: DS.attr(),
   city: DS.attr(),
   answers: DS.hasMany('answer', { async: true }),
+  latitude: DS.attr('number'),
+  longitude: DS.attr('number')
 });

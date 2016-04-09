@@ -1,25 +1,38 @@
-<p>Author: {{question.author}}</p>
-<p>From: {{question.city}}</p>
-<p>Question: {{question.content}}</p>
-<p>Notes: {{question.notes}}</p>
+<div class="row">
+  <div class="col-md-6">
+    <div>
+      <p>Author: {{question.author}}</p>
+      <p>From: {{question.city}}</p>
+      <p>Question: {{question.content}}</p>
+      <p>Notes: {{question.notes}}</p>
+    </div>
 
-<TABLE BORDER="0">
-  <TR>
-    <TD>{{update-question question=question update="update"}}</TD>
-    <TD><button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button></TD>
-  </TR>
-</TABLE>
-<br>
+    <TABLE BORDER="0">
+      <TR>
+        <TD>{{update-question question=question update="update"}}</TD>
+        <TD><button class="btn btn-danger btn-xs" {{action 'delete' question}}>Delete</button></TD>
+      </TR>
+    </TABLE>
+    <br>
 
-<hr>
-<h4>Answers: </h4>
-<ul>
-  {{#each question.answers as |answer|}}
-    <li>
-      <p>Author: {{answer.author}}</p>
-      <p>Answer: {{answer.content}}</p>
-    </li>
-    <button class="btn btn-danger btn-xs" {{action 'delete' answer}}>Delete</button>
     <hr>
-  {{/each}}
-</ul>
+    <h4>Answers: </h4>
+    <ul>
+      {{#each question.answers as |answer|}}
+        <li>
+          <p>Author: {{answer.author}}</p>
+          <p>Answer: {{answer.content}}</p>
+        </li>
+        <button class="btn btn-danger btn-xs" {{action 'delete' answer}}>Delete</button>
+        <hr>
+      {{/each}}
+    </ul>
+
+  </div>
+  <div class="col-md-6">
+    <div>
+      <h3>Map of {{question.author}}'s {{question.content}}</h3>
+      {{google-maps question=question}}
+    </div>
+  </div>
+</div>
