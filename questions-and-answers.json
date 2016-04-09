@@ -2,31 +2,44 @@
     "notes" : "how do you guys manage and organize your components in a rather large app? ",
     "content" : "Components",
     "city" : "San Diego",
-    "author" : "Jerry Garcia"
+    "author" : "Jerry Garcia",
+    "latitude" : "32.7111921",
+    "longitude" : "-117.1646096"
   }, {
     "notes" : "HOW DO I INFORM EMBER DATA ABOUT NEW RECORDS CREATED ON THE BACKEND?",
     "content" : "Models",
     "city" : "Los Angeles",
-    "author" : "liz Taylor"
+    "author" : "liz Taylor",
+    "latitude" : "34.0482414",
+    "longitude" : "-118.251248"
+
   }, {
     "notes" : "How to update just 1 record in Ember.js with Ember-data? Currently save() and commit() on 1 record actually updates all records of model.",
     "content" : "Updating",
     "city" : "Phoenix",
-    "author" : "Jake Langley"
+    "author" : "Jake Langley",
+    "latitude" : "33.4452375",
+    "longitude" : "-112.075541"
   }, {
     "notes" : "What is the difference between Router and Route in ember.js?",
     "content" : "Routing",
     "city" : "Chicago",
-    "author" : "Tom Barrow"
+    "author" : "Tom Barrow",
+    "latitude" : "41.880694",
+    "longitude" : "-87.632712"
   }, {
     "notes" : "How can I define and insert a view?",
     "content" : "Views",
     "city" : "Miami",
-    "author" : "Lisa Edwards"
+    "author" : "Lisa Edwards",
+    "latitude" : "25.7651981",
+    "longitude" : "-80.1962194"
   }, {
     "notes" : "How can I define a new ember class?",
     "content" : "Add-ons",
     "city" : "Dallas",
-    "author" : "Mike Ward"
+    "author" : "Mike Ward",
+    "latitude" : "32.7743115",
+    "longitude" : "-96.801624"
   }]
 }

@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         var container = this.$('.map-display')[0];
         var options = {
           center: this.get('map').center(question.get('latitude'), question.get('longitude')),
-          zoom: 15
+          zoom: 12
         };
         this.get('map').findMap(container, options);
       }
